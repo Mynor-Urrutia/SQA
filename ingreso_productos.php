@@ -10,7 +10,7 @@ if (isset($_POST['submit'])){
         "telefono" => $_POST['telefono']
     );
 
-    $sql = "INSERT INTO proveedor (nombre_prov, direccion, telefono) values (:nombre_prov, :direccion, :telefono)";
+    $sql = "INSERT INTO proveedores (nombre_prov, direccion, telefono) values (:nombre_prov, :direccion, :telefono)";
 
     try{
         $statement = $conexion->prepare($sql);

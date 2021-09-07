@@ -3,7 +3,7 @@
 $host ="localhost";
 $usuariodb = "admin";
 $password = "Tienda.2021";
-$nombredb = "sqa";
+$nombredb = "tienda";
 $dsn = "mysql:host=$host;dbname=$nombredb";
 
 try{
