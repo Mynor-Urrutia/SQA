@@ -1,0 +1,31 @@
+.div-proveedores{
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 50%;
+    float: left;
+    position: relative; 
+    
+}
+.div-productos{
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 50%;
+    float: left;
+    position: relative;     
+}
+
+.div-inventario{
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 50%;
+    float: left;
+    position: relative;     
+}
+
+.div-pedidos{
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 50%;
+    float: left;
+    position: relative;     
+}
