@@ -25,14 +25,17 @@ if (isset($_POST['submit'])) {
 <?php include "templates/header.php"; ?>
 
 <?php if (isset($_POST['submit']) && $statement) : ?>
-    <blockquote>El proveedor <?php echo $_POST['nombre_prov']; ?> se añadio correctamente.</blockquote>
+
+    <div class="alert alert-primary" role="alert">
+        <blockquote>El proveedor <?php echo $_POST['nombre_prov']; ?> se añadio correctamente.</blockquote>
+    </div>    
 <?php endif; ?>
 
 <h2>Crear Proveedor</h2>
 <div class="container">
     <div>
-        <i class="fas fa-arrow-left"><a href="index.php">Volver</a></i>
-    </div>
+        <a href="index.php"><i class="fas fa-arrow-left"></i> Volver</a>
+    </div><br>
 
     <form action="" method="post" class="needs-validation" novalidate>
         <div class="form-row">
@@ -91,6 +94,7 @@ if (isset($_POST['submit'])) {
     </form>
 
 </div>
+
 
 
 <?php include "templates/footer.php"; ?>
